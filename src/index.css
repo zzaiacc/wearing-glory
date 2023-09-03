@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Bebas Neue", sans-serif;
+  /* overflow: hidden; */
+}
+
+::-webkit-scrollbar {
+  width: 12px; /* Largura da barra de rolagem */
+}
+
+/* Cor de fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+  background: var(--color-g);
+}
+
+/* Estilizando o "polegar" da barra de rolagem */
+::-webkit-scrollbar-thumb {
+  background: var(--color-w);
+  border-radius: 6px; /* Bordas arredondadas do polegar */
+}
+
+/* Quando o polegar estiver sendo arrastado */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-g);
+}
+
+:root {
+  --color-g: #1fb45a;
+  --color-w: white;
+  --color-lg: rgb(146, 238, 146);
+  --color-r: rgb(237, 0, 0);
+  --color-lgr: #c9c9c9;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+

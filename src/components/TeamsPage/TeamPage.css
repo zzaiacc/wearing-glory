@@ -1,0 +1,50 @@
+body {
+    overflow-x: hidden;
+}
+
+select {
+  position: absolute;
+  margin-top: 29px;
+  margin-right: 40px;
+  top: 30;
+  right: 0;
+  height: 3.3rem;
+  width: 6rem;
+  text-align: center;
+  font-size: 2rem;
+  border: solid black;
+  transition: 0.4s;
+}
+
+select:hover {
+  border: solid var(--color-lg);
+}
+
+.team_info_container {
+  margin-top: 20px;
+  display: grid;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+  font-size: 2.2rem;
+  color: gold;
+}
+
+.titles_container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
+.team_jersey_container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.team_jersey_container img {
+    height: 500px;
+    width: 350px;
+}

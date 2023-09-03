@@ -1,0 +1,37 @@
+.teams_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+/* .teams_grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    grid-gap: 50px;
+    grid-template-rows: repeat(3, 1fr); 
+    align-items: center; 
+    justify-items: center; 
+  } */
+  
+.teams_grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 50px;
+    justify-items: center;
+}
+
+.teams_container {
+  text-align: center;
+}
+
+.teams_logos {
+  width: 100px; /* Largura da imagem do time */
+  height: auto; /* Altura automática para manter a proporção */
+}
+
+.team_name {
+  margin-top: 10px; /* Espaço entre o logotipo e o nome do time */
+}
