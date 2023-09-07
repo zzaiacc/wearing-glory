@@ -3,7 +3,8 @@ import MainPage from "./components/MainPage";
 import ErrorPage from "./ErrorPage";
 import BrasilTeams from "./components/BrasilTeams";
 import Palmeiras from "./components/TeamsPage/Palmeiras";
-import HeaderCountry from "./components/Headers/HeaderCountry";
+import Vasco from "./components/TeamsPage/Vasco";
+
 //? Dependencies
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: "/brasil/palmeiras",
     element: <Palmeiras />,
+  },
+  {
+    path: "/brasil/vasco",
+    element: <Vasco />,
   },
   {
     path: "/mainPage",

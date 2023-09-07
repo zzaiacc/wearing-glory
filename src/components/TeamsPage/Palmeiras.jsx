@@ -1,4 +1,7 @@
 import HeaderCountryTeam from "../Headers/HeaderCountryTeam";
+import Camisa2023Palmeiras1 from "../../assets/pal2023-1.png";
+import Camisa2023Palmeiras2 from "../../assets/pal2023-2.png";
+import Camisa2023Palmeiras3 from "../../assets/pal2023-3.png";
 import Camisa2022Palmeiras1 from "../../assets/pal2022-1.png";
 import Camisa2022Palmeiras2 from "../../assets/pal2022-2.png";
 import Camisa2022Palmeiras3 from "../../assets/pal2022-3.png";
@@ -8,6 +11,12 @@ import Camisa2021Palmeiras3 from "../../assets/pal2021-3.png";
 import Camisa2020Palmeiras1 from "../../assets/pal2020-1.png";
 import Camisa2020Palmeiras2 from "../../assets/pal2020-2.png";
 import Camisa2020Palmeiras3 from "../../assets/pal2020-3.png";
+import Camisa2018Palmeiras1 from "../../assets/pal2018-1.png";
+import Camisa2018Palmeiras2 from "../../assets/pal2018-2.png";
+import Camisa2018Palmeiras3 from "../../assets/pal2018-3.png";
+import Camisa2015Palmeiras1 from "../../assets/pal2015-1.png";
+import Camisa2015Palmeiras2 from "../../assets/pal2015-2.png";
+import Camisa2015Palmeiras3 from "../../assets/pal2015-3.png";
 
 import { useState, useEffect } from "react";
 
@@ -19,9 +28,30 @@ const Palmeiras = () => {
 
   const teamInfo = [
     {
+      year: "2023",
+      titles: [
+        "Campeonato Paulista",
+        "Supercopa do Brasil",
+      ],
+      jerseys: [
+        {
+          name: "I",
+          img: Camisa2023Palmeiras1,
+        },
+        {
+          name: "II",
+          img: Camisa2023Palmeiras2,
+        },
+        {
+          name: "III",
+          img: Camisa2023Palmeiras3,
+        },
+      ],
+    },
+    {
       year: "2022",
       titles: [
-        "Campeonato Paulita",
+        "Campeonato Paulista",
         "Campeonato Brasileiro",
         "Recopa Sulamericana",
       ],
@@ -40,6 +70,7 @@ const Palmeiras = () => {
         },
       ],
     },
+
     {
       year: "2021",
       titles: ["Libertadores"],
@@ -60,7 +91,12 @@ const Palmeiras = () => {
     },
     {
       year: "2020",
-      titles: ["Copa do Brasil", "Libertadores", "Campeonato Paulista"],
+      titles: [
+        "Copa do Brasil",
+        "Libertadores",
+        "Campeonato Paulista",
+        "Florida Cup",
+      ],
       jerseys: [
         {
           name: "I",
@@ -73,6 +109,42 @@ const Palmeiras = () => {
         {
           name: "III",
           img: Camisa2020Palmeiras3,
+        },
+      ],
+    },
+    {
+      year: "2018",
+      titles: ["Campeonato Brasileiro"],
+      jerseys: [
+        {
+          name: "I",
+          img: Camisa2018Palmeiras1,
+        },
+        {
+          name: "II",
+          img: Camisa2018Palmeiras2,
+        },
+        {
+          name: "III",
+          img: Camisa2018Palmeiras3,
+        },
+      ],
+    },
+    {
+      year: "2015",
+      titles: ["Campeonato Brasileiro"],
+      jerseys: [
+        {
+          name: "I",
+          img: Camisa2015Palmeiras1,
+        },
+        {
+          name: "II",
+          img: Camisa2015Palmeiras2,
+        },
+        {
+          name: "III",
+          img: Camisa2015Palmeiras3,
         },
       ],
     },
