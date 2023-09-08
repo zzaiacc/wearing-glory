@@ -29,10 +29,7 @@ const Palmeiras = () => {
   const teamInfo = [
     {
       year: "2023",
-      titles: [
-        "Campeonato Paulista",
-        "Supercopa do Brasil",
-      ],
+      titles: ["Campeonato Paulista", "Supercopa do Brasil"],
       jerseys: [
         {
           name: "I",
@@ -173,36 +170,37 @@ const Palmeiras = () => {
   return (
     <>
       <HeaderCountryTeam team={team} />
-
-      <div className="select_container">
-        <select name="year" value={year} onChange={handleSelect}>
-          {teamInfo.map((y, i) => (
-            <option key={i} value={y.year}>
-              {y.year}
-            </option>
-          ))}
-        </select>
-      </div>
-      <div className="team_info_container">
-        <h4> Títulos </h4>
-        <div className="titles_container">
-          {filterTitles.map((title, i) => (
-            <div key={i}>
-              <h3>{title}</h3>
-            </div>
-          ))}
-        </div>
-        <div className="team_jersey_container">
-          {teamInfo
-            .find((item) => item.year === year)
-            .jerseys.map((camisa, i) => (
-              <img
-                key={i}
-                className="team_jersey"
-                src={camisa.img}
-                alt={`Camisa ${camisa.name} Palmeiras ${year}`}
-              />
+      <div style={{ backgroundColor: "#eefdec" }}>
+        <div className="select_container">
+          <select name="year" value={year} onChange={handleSelect}>
+            {teamInfo.map((y, i) => (
+              <option key={i} value={y.year}>
+                {y.year}
+              </option>
             ))}
+          </select>
+        </div>
+        <div className="team_info_container">
+          <h4> Títulos </h4>
+          <div className="titles_container">
+            {filterTitles.map((title, i) => (
+              <div key={i}>
+                <h3>{title}</h3>
+              </div>
+            ))}
+          </div>
+          <div className="team_jersey_container">
+            {teamInfo
+              .find((item) => item.year === year)
+              .jerseys.map((camisa, i) => (
+                <img
+                  key={i}
+                  className="team_jersey"
+                  src={camisa.img}
+                  alt={`Camisa ${camisa.name} Palmeiras ${year}`}
+                />
+              ))}
+          </div>
         </div>
       </div>
     </>

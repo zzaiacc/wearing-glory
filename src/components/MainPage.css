@@ -5,7 +5,7 @@
 
 .teams_wrapper {
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   justify-content: space-between;
@@ -21,9 +21,11 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+  transition: 0.4s;
 }
 
 .teams_container:hover {
+  scale: 1.1;
   color: var(--color-lg);
 }
 
@@ -37,7 +39,6 @@
 .teams_names {
   font-size: 1.5rem;
   cursor: default;
-  transition: 0.5s;
 }
 
 .eng_colors {

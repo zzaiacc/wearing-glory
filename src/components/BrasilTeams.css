@@ -25,13 +25,20 @@
 
 .teams_container {
   text-align: center;
+  transition: .4s;
+}
+
+.teams_container:hover{
+  scale: 1.1;
 }
 
 .teams_logos {
   width: 100px; /* Largura da imagem do time */
-  height: auto; /* Altura automática para manter a proporção */
+  height: auto; /* Altura automática para manter a proporção */;
 }
 
 .team_name {
   margin-top: 10px; /* Espaço entre o logotipo e o nome do time */
 }
+
+

@@ -21,7 +21,8 @@ select:hover {
 }
 
 .team_info_container {
-  margin-top: 20px;
+  /* margin-top: 20px; */
+  padding: 20px;
   display: grid;
 }
 

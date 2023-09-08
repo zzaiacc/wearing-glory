@@ -4,6 +4,7 @@ import ErrorPage from "./ErrorPage";
 import BrasilTeams from "./components/BrasilTeams";
 import Palmeiras from "./components/TeamsPage/Palmeiras";
 import Vasco from "./components/TeamsPage/Vasco";
+import SaoPaulo from "./components/TeamsPage/SaoPaulo";
 
 //? Dependencies
 import * as React from "react";
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: "/brasil/vasco",
     element: <Vasco />,
+  },
+  {
+    path: "/brasil/saoPaulo",
+    element: <SaoPaulo />,
   },
   {
     path: "/mainPage",
