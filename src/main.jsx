@@ -5,6 +5,7 @@ import BrasilTeams from "./components/BrasilTeams";
 import Palmeiras from "./components/TeamsPage/Palmeiras";
 import Vasco from "./components/TeamsPage/Vasco";
 import SaoPaulo from "./components/TeamsPage/SaoPaulo";
+import Santos from "./components/TeamsPage/Santos";
 
 //? Dependencies
 import * as React from "react";
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
   {
     path: "/brasil/saoPaulo",
     element: <SaoPaulo />,
+  },
+  {
+    path: "/brasil/santos",
+    element: <Santos />,
   },
   {
     path: "/mainPage",

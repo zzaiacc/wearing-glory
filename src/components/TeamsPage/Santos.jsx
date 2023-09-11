@@ -1,30 +1,30 @@
 import HeaderCountryTeam from "../Headers/HeaderCountryTeam";
 import { useState, useEffect } from "react";
-import Camisa2021SaoPaulo1 from "../../assets/sp2021-1.png";
-import Camisa2021SaoPaulo2 from "../../assets/sp2021-2.png";
-import Camisa2021SaoPaulo3 from "../../assets/sp2021-3.png";
+import Camisa2016Santos1 from "../../assets/san2016-1.png";
+import Camisa2016Santos2 from "../../assets/san2016-2.png";
+import Camisa2016Santos3 from "../../assets/san2016-3.png";
 //CSS
 import "./TeamPage.css";
 
-const SaoPaulo = () => {
-  const team = "SaoPaulo";
+const Santos = () => {
+  const team = "Santos";
 
   const teamInfo = [
     {
-      year: "2021",
+      year: "2016",
       titles: ["Campeonto Paulista"],
       jerseys: [
         {
           name: "I",
-          img: Camisa2021SaoPaulo1,
+          img: Camisa2016Santos1,
         },
         {
           name: "II",
-          img: Camisa2021SaoPaulo2,
+          img: Camisa2016Santos2,
         },
         {
           name: "III",
-          img: Camisa2021SaoPaulo3,
+          img: Camisa2016Santos3,
         },
       ],
     },
@@ -67,7 +67,7 @@ const SaoPaulo = () => {
         <div className="team_info_container">
 
           {/*//* Titulos */}
-          <h4 style={{ color: "red" }}> Títulos </h4>  
+          <h4 style={{ color: "black" }}> Títulos </h4>  
           <div className="titles_container">
             {filterTitles.map((title, i) => (
               <div key={i}>
@@ -93,4 +93,4 @@ const SaoPaulo = () => {
   );
 };
 
-export default SaoPaulo;
+export default Santos;

@@ -47,7 +47,7 @@ const MainPage = () => {
     },
     {
       id: 4,
-      path: "/brasil/sao-paulo",
+      path: "/brasil/saoPaulo",
       img: SaoPauloLogo,
       name: "São Paulo",
       alt: "LogoSaoPaulo",
@@ -63,7 +63,7 @@ const MainPage = () => {
   const espTeams = [
     {
       id: 16,
-      path: "/real-madrid",
+      path: "/realMadrid",
       img: RealMadridLogo,
       name: "Real Madrid",
       alt: "LogoRealMadrid",
@@ -77,14 +77,14 @@ const MainPage = () => {
     },
     {
       id: 18,
-      path: "/altetico-madrid",
+      path: "/alteticoMadrid",
       img: AtleticoMadridLogo,
       name: "Atlético Madrid",
       alt: "LogoAtleticoMadrid",
     },
     {
       id: 19,
-      path: "/athletic-bilbao",
+      path: "/athleticBilbao",
       img: AthleticBilbaoLogo,
       name: "Athletic Bilbao",
       alt: "LogoAthleticBilbao",
@@ -100,14 +100,14 @@ const MainPage = () => {
   const engTeams = [
     {
       id: 31,
-      path: "/man-united",
+      path: "/manUnited",
       img: ManchesterUnitedLogo,
       name: "United",
       alt: "LogoMachesterUnited",
     },
     {
       id: 32,
-      path: "/man-city",
+      path: "/manCity",
       img: ManchesterCityLogo,
       name: "City",
       alt: "LogoManchesterCity",
